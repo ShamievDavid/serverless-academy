@@ -10,7 +10,6 @@ axios
 
     const users = {};
 
-    // Group the vacation records by user
     data.forEach((vacation) => {
       const userId = vacation.user._id;
       const userName = vacation.user.name;
